@@ -1,0 +1,119 @@
+body {
+    padding-bottom: 150px;
+}
+
+.fond{
+    widows: 100%;
+    height: 300px;
+    background-color : whitesmoke;
+    background: url('../res/code.jpg') center no-repeat;
+    background-size: fond; 
+}
+
+.image{
+    position:relative;
+    top: -100px;
+    margin:auto;
+    display:block;
+    width:200px;
+    border-radius:50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.public{
+    color: #2196F3;
+    position: relative;
+    text-align: center;
+    display:block;
+    top:-50px;
+
+}
+
+.public s{
+    padding: 3px;
+}
+
+.public s:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.nom{
+    position: relative;
+    top:-40px;
+    text-align:center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    
+}
+.nom:hover {
+    color: black;
+    cursor: default;
+    text-decoration: underline;
+}
+
+.tag {
+    color: #666;
+    position: relative;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: lowercase;
+    top: -55px;
+ }
+ .titre {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #2196F3;
+}
+.want .row {
+    margin-top: 60px;
+}
+.want i {
+    color: #222;
+    padding: 30px;
+    transition: transform .8s;
+}
+
+
+.want p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #222;
+    position: relative;
+    left: -30px;
+    opacity: 0;
+}
+
+
+
+.want i:hover {
+    color: skyblue;
+    transform: rotate(360deg);
+    transition: all .37s;
+}
+
+
+
+.centered {
+    text-align: center;
+}
+
+.projets img {
+    border-radius: 3.5px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    transition: box-shadow .3s;
+}
+
+.projets img:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow .7s;
+}
+
+.con {
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
